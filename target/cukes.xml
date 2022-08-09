@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.323">
+    <testcase classname="Register" name="guest user could register with valid data successfully" time="9.167">
+        <system-out><![CDATA[Given user go to register page..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

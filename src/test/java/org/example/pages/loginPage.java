@@ -25,6 +25,10 @@ public class loginPage {
     {
         return Hooks.driver.findElement(By.linkText("Forgot password?"));
     }
-
+    public void login(String email, String password) {
+        emailTestbox().sendKeys(email);
+        passwordTextbox().sendKeys(password);
+        loginButton().click();
+    }
 }
 

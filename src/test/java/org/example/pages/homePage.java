@@ -20,4 +20,6 @@ public class homePage {
     public WebElement currencyMenu() { return Hooks.driver.findElement(By.id("customerCurrency")); }
     public WebElement dollarCurrency() { return Hooks.driver.findElement(By.cssSelector("option[value=\"https://demo.nopcommerce.com/changecurrency/1?returnUrl=%2Fregister%3FreturnUrl%3D%2F\"]")); }
     public WebElement euroCurrency() { return Hooks.driver.findElement(By.cssSelector("option[value=\"https://demo.nopcommerce.com/changecurrency/6?returnUrl=%2Fregister%3FreturnUrl%3D%2F\"]")); }
+    public WebElement searchTextbox() { return Hooks.driver.findElement(By.id("small-searchterms")); }
+
 }

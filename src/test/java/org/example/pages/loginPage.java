@@ -21,6 +21,10 @@ public class loginPage {
     {
         return Hooks.driver.findElement(By.className("login-button"));
     }
+    public WebElement forgotPassword()
+    {
+        return Hooks.driver.findElement(By.linkText("Forgot password?"));
+    }
 
 }
 

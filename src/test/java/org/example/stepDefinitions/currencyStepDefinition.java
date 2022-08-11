@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import org.example.pages.homePage;
 import org.openqa.selenium.Keys;
 
-public class currenciesStepDefinition {
+public class currencyStepDefinition {
     homePage home = new homePage();
 
     @Given("user go to home page")

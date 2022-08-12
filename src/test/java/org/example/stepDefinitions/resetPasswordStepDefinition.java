@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import org.example.pages.loginPage;
 import org.example.pages.resetPasswordPage;
+import org.testng.asserts.SoftAssert;
 
 public class resetPasswordStepDefinition {
 
@@ -24,6 +25,8 @@ public class resetPasswordStepDefinition {
     }
     @And("confirmation message is displayed")
     public void assertSucess() {
-
+        SoftAssert soft = new SoftAssert();
+        soft.assertTrue(login.confirmationMessage().isDisplayed());
+        soft.assertTrue(login.confirmationMessage().getText().contains("Email with instructions has been sent to you."));
     }
 }

@@ -25,11 +25,12 @@ public class homePage {
     public WebElement searchTextbox() { return Hooks.driver.findElement(By.id("small-searchterms")); }
     public List<WebElement> categories() { return Hooks.driver.findElement(By.className("top-menu")).findElements(By.tagName("li")); }
     public WebElement wishlistButton() { return Hooks.driver.findElement(By.cssSelector("div[data-productid=\"18\"]")).findElement(By.className("add-to-wishlist-button")); }
-    public By wishlistSucessMessageSelector() { return By.cssSelector("p[class=\"content\"]"); }
-    public WebElement wishlistSucessMessage() { return Hooks.driver.findElement(By.cssSelector("p[class=\"content\"]")); }
+    public By wishlistSuccessMessageSelector() { return By.cssSelector("p[class=\"content\"]"); }
+    public WebElement wishlistSuccessMessage() { return Hooks.driver.findElement(By.cssSelector("p[class=\"content\"]")); }
     public WebElement wishlist() { return Hooks.driver.findElement(By.className("ico-wishlist")); }
     public WebElement addToCart() { return Hooks.driver.findElement(By.cssSelector("div[data-productid=\"18\"]")).findElement(By.className("product-box-add-to-cart-button")); }
-    public By shoppingCartSucessMessageSelector() { return By.cssSelector("p[class=\"content\"]"); }
+    public By shoppingCartSuccessMessageSelector() { return By.cssSelector("p[class=\"content\"]"); }
+    public WebElement shoppingCartSuccessMessage() { return Hooks.driver.findElement(By.cssSelector("p[class=\"content\"]")); }
     public WebElement shoppingCart() { return Hooks.driver.findElement(By.className("ico-cart")); }
     public WebElement firstSliderController() { return Hooks.driver.findElement(By.cssSelector("a[rel=\"0\"]")); }
     public WebElement firstSlider() { return Hooks.driver.findElement(By.id("nivo-slider")); }
@@ -39,5 +40,11 @@ public class homePage {
     public WebElement twitterIcon() { return Hooks.driver.findElement(By.cssSelector("a[href=\"https://twitter.com/nopCommerce\"]")); }
     public WebElement rssIcon() { return Hooks.driver.findElement(By.cssSelector("a[href=\"/news/rss/1\"]")); }
     public WebElement youtubeIcon() { return Hooks.driver.findElement(By.cssSelector("a[href=\"http://www.youtube.com/user/nopCommerce\"]")); }
-
+    public List<WebElement> productCard() { return Hooks.driver.findElements(By.className("product-item")); }
+    public WebElement productPrice(WebElement product) {
+        return product.findElement(By.className("actual-price"));
+    }
+    public WebElement accountTab() {
+        return Hooks.driver.findElement(By.className("ico-account"));
+    }
 }

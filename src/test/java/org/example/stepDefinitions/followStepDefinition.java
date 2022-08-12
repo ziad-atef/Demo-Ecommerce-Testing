@@ -5,6 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en_scouse.An;
 import org.example.pages.homePage;
+import org.testng.Assert;
 
 import java.util.ArrayList;
 
@@ -24,7 +25,7 @@ public class followStepDefinition {
     }
     @Then("page url should be {string}")
     public void assertURL(String url) {
-
+        Assert.assertTrue( Hooks.driver.getCurrentUrl().contains(url) );
     }
     @When("clicks on twitter link")
     public void openTwitter() {

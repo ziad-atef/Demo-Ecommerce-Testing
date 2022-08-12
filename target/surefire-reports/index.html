@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">22 methods, 4 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User can navigate to products through slider(2)&quot;, &quot;Home page slider&quot;)">runScenario("User can navigate to products through slider(2)", "Home page slider")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User can navigate to products through slider(1)&quot;, &quot;Home page slider&quot;)">runScenario("User can navigate to products through slider(1)", "Home page slider")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could follow us on rss&quot;, &quot;Follow us on social media&quot;)">runScenario("User could follow us on rss", "Follow us on social media")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could register with valid data&quot;, &quot;Register&quot;)">runScenario("User could register with valid data", "Register")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +132,92 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;guest user could register with valid data successfully&quot;, &quot;Register&quot;)">runScenario("guest user could register with valid data successfully", "Register")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could select different Categories&quot;, &quot;Category&quot;)">runScenario("Logged user could select different Categories", "Category")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could follow us on twitter&quot;, &quot;Follow us on social media&quot;)">runScenario("User could follow us on twitter", "Follow us on social media")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could search for product using sku&quot;, &quot;Product search&quot;)">runScenario("Logged user could search for product using sku", "Product search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could reset his/her password successfully&quot;, &quot;Resetting password&quot;)">runScenario("User could reset his/her password successfully", "Resetting password")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could search for product using sku&quot;, &quot;Product search&quot;)">runScenario("Logged user could search for product using sku", "Product search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could add different products to Shopping cart(1)&quot;, &quot;Shopping cart&quot;)">runScenario("Logged user could add different products to Shopping cart(1)", "Shopping cart")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could add different products to Wishlist(2)&quot;, &quot;Wishlist&quot;)">runScenario("Logged user could add different products to Wishlist(2)", "Wishlist")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could change the currency&quot;, &quot;Currencies&quot;)">runScenario("User could change the currency", "Currencies")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could login with invalid email and password&quot;, &quot;Login&quot;)">runScenario("User could login with invalid email and password", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could search using product name&quot;, &quot;Product search&quot;)">runScenario("Logged user could search using product name", "Product search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could add different products to Wishlist(1)&quot;, &quot;Wishlist&quot;)">runScenario("Logged user could add different products to Wishlist(1)", "Wishlist")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could search using product name&quot;, &quot;Product search&quot;)">runScenario("Logged user could search using product name", "Product search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could follow us on facebook&quot;, &quot;Follow us on social media&quot;)">runScenario("User could follow us on facebook", "Follow us on social media")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could add different products to Wishlist(2)&quot;, &quot;Shopping cart&quot;)">runScenario("Logged user could add different products to Wishlist(2)", "Shopping cart")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could log in with valid email and password&quot;, &quot;Login&quot;)">runScenario("User could log in with valid email and password", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could search using product name&quot;, &quot;Product search&quot;)">runScenario("Logged user could search using product name", "Product search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;User could follow us on youtube&quot;, &quot;Follow us on social media&quot;)">runScenario("User could follow us on youtube", "Follow us on social media")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.example.testRunner.runners" class="method navigator-link" hash-for-method="runScenario(&quot;Logged user could search for product using sku&quot;, &quot;Product search&quot;)">runScenario("Logged user could search for product using sku", "Product search")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -118,6 +232,94 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.example.testRunner.runners</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User can navigate to products through slider(2)&quot;, &quot;Home page slider&quot;)">
+                  </a> <!-- runScenario("User can navigate to products through slider(2)", "Home page slider") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User can navigate to products through slider(2)","Home page slider")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.example.stepDefinitions.sliderStepDefinition.assertURL(sliderStepDefinition.java:24)
+	at ✽.user should be directed to &quot;https://demo.nopcommerce.com/iphone-6&quot;(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Slider.feature:14)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User can navigate to products through slider(1)&quot;, &quot;Home page slider&quot;)">
+                  </a> <!-- runScenario("User can navigate to products through slider(1)", "Home page slider") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User can navigate to products through slider(1)","Home page slider")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.example.stepDefinitions.sliderStepDefinition.assertURL(sliderStepDefinition.java:24)
+	at ✽.user should be directed to &quot;https://demo.nopcommerce.com/nokia-lumia-1020&quot;(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Slider.feature:8)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could follow us on rss&quot;, &quot;Follow us on social media&quot;)">
+                  </a> <!-- runScenario("User could follow us on rss", "Follow us on social media") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could follow us on rss","Follow us on social media")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.example.stepDefinitions.followStepDefinition.assertURL(followStepDefinition.java:28)
+	at ✽.page url should be &quot;https://demo.nopcommerce.com/new-online-store-is-open&quot;(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Follow.feature:21)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could register with valid data&quot;, &quot;Register&quot;)">
+                  </a> <!-- runScenario("User could register with valid data", "Register") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could register with valid data","Register")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class=&quot;result&quot;]&quot;}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-QV8H481&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35804eec5bc46d335bc227a9e95f3a90, findElement {using=css selector, value=div[class=&quot;result&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ziada\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52396/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 35804eec5bc46d335bc227a9e95f3a90
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at org.example.pages.registerPage.confirmationMessage(registerPage.java:70)
+	at org.example.stepDefinitions.registerStepDefinition.assertSucessfulRegistration(registerStepDefinition.java:71)
+	at ✽.success message is displayed(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Register.feature:13)
+... Removed 5 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -126,10 +328,180 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;guest user could register with valid data successfully&quot;, &quot;Register&quot;)">
-                  </a> <!-- runScenario("guest user could register with valid data successfully", "Register") -->
+                  <a name="runScenario(&quot;Logged user could select different Categories&quot;, &quot;Category&quot;)">
+                  </a> <!-- runScenario("Logged user could select different Categories", "Category") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("guest user could register with valid data successfully","Register")</span>
+                  <span class="parameters">("Logged user could select different Categories","Category")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could follow us on twitter&quot;, &quot;Follow us on social media&quot;)">
+                  </a> <!-- runScenario("User could follow us on twitter", "Follow us on social media") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could follow us on twitter","Follow us on social media")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search for product using sku&quot;, &quot;Product search&quot;)">
+                  </a> <!-- runScenario("Logged user could search for product using sku", "Product search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search for product using sku","Product search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could reset his/her password successfully&quot;, &quot;Resetting password&quot;)">
+                  </a> <!-- runScenario("User could reset his/her password successfully", "Resetting password") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could reset his/her password successfully","Resetting password")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search for product using sku&quot;, &quot;Product search&quot;)">
+                  </a> <!-- runScenario("Logged user could search for product using sku", "Product search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search for product using sku","Product search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could add different products to Shopping cart(1)&quot;, &quot;Shopping cart&quot;)">
+                  </a> <!-- runScenario("Logged user could add different products to Shopping cart(1)", "Shopping cart") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could add different products to Shopping cart(1)","Shopping cart")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could add different products to Wishlist(2)&quot;, &quot;Wishlist&quot;)">
+                  </a> <!-- runScenario("Logged user could add different products to Wishlist(2)", "Wishlist") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could add different products to Wishlist(2)","Wishlist")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could change the currency&quot;, &quot;Currencies&quot;)">
+                  </a> <!-- runScenario("User could change the currency", "Currencies") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could change the currency","Currencies")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could login with invalid email and password&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("User could login with invalid email and password", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could login with invalid email and password","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search using product name&quot;, &quot;Product search&quot;)">
+                  </a> <!-- runScenario("Logged user could search using product name", "Product search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search using product name","Product search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could add different products to Wishlist(1)&quot;, &quot;Wishlist&quot;)">
+                  </a> <!-- runScenario("Logged user could add different products to Wishlist(1)", "Wishlist") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could add different products to Wishlist(1)","Wishlist")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search using product name&quot;, &quot;Product search&quot;)">
+                  </a> <!-- runScenario("Logged user could search using product name", "Product search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search using product name","Product search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could follow us on facebook&quot;, &quot;Follow us on social media&quot;)">
+                  </a> <!-- runScenario("User could follow us on facebook", "Follow us on social media") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could follow us on facebook","Follow us on social media")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could add different products to Wishlist(2)&quot;, &quot;Shopping cart&quot;)">
+                  </a> <!-- runScenario("Logged user could add different products to Wishlist(2)", "Shopping cart") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could add different products to Wishlist(2)","Shopping cart")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could log in with valid email and password&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("User could log in with valid email and password", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could log in with valid email and password","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search using product name&quot;, &quot;Product search&quot;)">
+                  </a> <!-- runScenario("Logged user could search using product name", "Product search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search using product name","Product search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User could follow us on youtube&quot;, &quot;Follow us on social media&quot;)">
+                  </a> <!-- runScenario("User could follow us on youtube", "Follow us on social media") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User could follow us on youtube","Follow us on social media")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search for product using sku&quot;, &quot;Product search&quot;)">
+                  </a> <!-- runScenario("Logged user could search for product using sku", "Product search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search for product using sku","Product search")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -195,16 +567,100 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(22);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'org.example.testRunner.runners')
-data.setCell(0, 3, 9230);
+data.setCell(0, 3, 71551);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'org.example.testRunner.runners')
+data.setCell(1, 3, 27502);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'org.example.testRunner.runners')
+data.setCell(2, 3, 25746);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'org.example.testRunner.runners')
+data.setCell(3, 3, 20413);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'org.example.testRunner.runners')
+data.setCell(4, 3, 18166);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'org.example.testRunner.runners')
+data.setCell(5, 3, 13779);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'org.example.testRunner.runners')
+data.setCell(6, 3, 11548);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'org.example.testRunner.runners')
+data.setCell(7, 3, 11490);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'org.example.testRunner.runners')
+data.setCell(8, 3, 10457);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'org.example.testRunner.runners')
+data.setCell(9, 3, 10388);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'org.example.testRunner.runners')
+data.setCell(10, 3, 10381);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'org.example.testRunner.runners')
+data.setCell(11, 3, 10287);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'org.example.testRunner.runners')
+data.setCell(12, 3, 9925);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'org.example.testRunner.runners')
+data.setCell(13, 3, 9835);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'org.example.testRunner.runners')
+data.setCell(14, 3, 9597);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'org.example.testRunner.runners')
+data.setCell(15, 3, 9266);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'org.example.testRunner.runners')
+data.setCell(16, 3, 8925);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'org.example.testRunner.runners')
+data.setCell(17, 3, 8603);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'org.example.testRunner.runners')
+data.setCell(18, 3, 8553);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'org.example.testRunner.runners')
+data.setCell(19, 3, 8440);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'org.example.testRunner.runners')
+data.setCell(20, 3, 8390);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'org.example.testRunner.runners')
+data.setCell(21, 3, 8226);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -232,16 +688,108 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">org.example.testRunner.runners</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@33063f5b)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5868ea91)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("guest user could register with valid data successfully", "Register")</span>
-                <span class="method-start">594 ms</span>
+                <span class="method-name">runScenario("Logged user could select different Categories", "Category")</span>
+                <span class="method-start">660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User could change the currency", "Currencies")</span>
+                <span class="method-start">21075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User could follow us on facebook", "Follow us on social media")</span>
+                <span class="method-start">31363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User could follow us on twitter", "Follow us on social media")</span>
+                <span class="method-start">39589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User could follow us on rss", "Follow us on social media")</span>
+                <span class="method-start">48192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User could follow us on youtube", "Follow us on social media")</span>
+                <span class="method-start">57794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User could log in with valid email and password", "Login")</span>
+                <span class="method-start">71573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User could login with invalid email and password", "Login")</span>
+                <span class="method-start">80499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User could register with valid data", "Register")</span>
+                <span class="method-start">89053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User could reset his/her password successfully", "Resetting password")</span>
+                <span class="method-start">107219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search using product name", "Product search")</span>
+                <span class="method-start">116486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search using product name", "Product search")</span>
+                <span class="method-start">126875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search using product name", "Product search")</span>
+                <span class="method-start">137257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search for product using sku", "Product search")</span>
+                <span class="method-start">147715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search for product using sku", "Product search")</span>
+                <span class="method-start">159206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search for product using sku", "Product search")</span>
+                <span class="method-start">170755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could add different products to Shopping cart(1)", "Shopping cart")</span>
+                <span class="method-start">242306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could add different products to Wishlist(2)", "Shopping cart")</span>
+                <span class="method-start">252141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User can navigate to products through slider(1)", "Home page slider")</span>
+                <span class="method-start">279644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User can navigate to products through slider(2)", "Home page slider")</span>
+                <span class="method-start">288035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could add different products to Wishlist(1)", "Wishlist")</span>
+                <span class="method-start">296476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could add different products to Wishlist(2)", "Wishlist")</span>
+                <span class="method-start">306402 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">9824 ms</span>
+                <span class="method-start">332151 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

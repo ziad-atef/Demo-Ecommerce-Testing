@@ -19,7 +19,7 @@ Feature: Product search
     And   user is at home page
     When  user enter product sku as "<sku>"
     And   user press enter
-    Then  search results should appear and contain "<sku>"
+    Then  search result should contain "<sku>"
     Examples:
       |     sku     |
       |  SCI_FAITH  |

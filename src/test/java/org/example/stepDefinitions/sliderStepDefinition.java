@@ -3,6 +3,7 @@ package org.example.stepDefinitions;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.homePage;
+import org.testng.Assert;
 
 public class sliderStepDefinition {
 
@@ -20,6 +21,6 @@ public class sliderStepDefinition {
     }
     @Then("user should be directed to {string}")
     public void assertURL(String url) {
-
+        Assert.assertTrue( Hooks.driver.getCurrentUrl().contains(url) );
     }
 }

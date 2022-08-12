@@ -48,4 +48,12 @@ public class homePage {
     public WebElement accountTab() {
         return Hooks.driver.findElement(By.className("ico-account"));
     }
+    public WebElement addToCompareListButton(WebElement product) {
+        return product.findElement(By.className("add-to-compare-list-button"));
+    }
+    public WebElement compareListSuccessMessage() { return Hooks.driver.findElement(By.cssSelector("p[class=\"content\"]")); }
+    public WebElement productTitle(WebElement product) {
+        return product.findElement(By.cssSelector("h2[class=\"product-title\"] > a"));
+    }
+    public WebElement compareListLink() { return Hooks.driver.findElement(By.linkText("Compare products list")); }
 }

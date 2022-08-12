@@ -37,8 +37,8 @@ public class filtrationStepDefinition {
         this.colorName =  gallery.colorName(color);
     }
     @Then("products having chosen color")
-    public void assertSuccess() {
-        
+    public void assertSuccess() throws InterruptedException {
+
     }
 
 }

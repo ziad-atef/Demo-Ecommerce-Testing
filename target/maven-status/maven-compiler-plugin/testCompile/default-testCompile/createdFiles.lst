@@ -1,6 +1,8 @@
 org\example\pages\productPage.class
 org\example\stepDefinitions\loginStepDefinition.class
 org\example\pages\loginPage.class
+org\example\stepDefinitions\compareListStepDefinition.class
+org\example\stepDefinitions\filtrationStepDefinition.class
 org\example\stepDefinitions\categoryStepDefinition.class
 org\example\stepDefinitions\followStepDefinition.class
 org\example\stepDefinitions\currencyStepDefinition.class

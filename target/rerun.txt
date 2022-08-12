@@ -1,3 +1,4 @@
+file:src/main/resources/features/Search.feature:14
 file:src/main/resources/features/Follow.feature:17
 file:src/main/resources/features/Slider.feature:5:11
 file:src/main/resources/features/Register.feature:5

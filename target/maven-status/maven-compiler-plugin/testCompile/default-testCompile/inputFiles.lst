@@ -1,3 +1,4 @@
+D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\stepDefinitions\filtrationStepDefinition.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\stepDefinitions\searchStepDefinition.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\stepDefinitions\sliderStepDefinition.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\stepDefinitions\loginStepDefinition.java
@@ -9,6 +10,7 @@ D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\pages\loginPage.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\pages\registerPage.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\stepDefinitions\shoppingCartStepDefinition.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\pages\wishlistPage.java
+D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\stepDefinitions\compareListStepDefinition.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\stepDefinitions\wishlistStepDefinition.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\pages\cartPage.java
 D:\GitHub\Demo-Ecommerce-Testing\src\test\java\org\example\stepDefinitions\registerStepDefinition.java

@@ -35,7 +35,7 @@ public class categoryStepDefinition {
         Actions action = new Actions(Hooks.driver);
 
         if(randomItem.findElements(By.tagName("li")).size() > 0){
-            randomItem = randomItem.findElements(By.tagName("li")).get( new Random().nextInt(3) );
+            randomItem = home.subCategories(randomItem).get( new Random().nextInt(3) );
             title = randomItem.getText();
             action.moveToElement(randomItem).perform();
             randomItem.click();

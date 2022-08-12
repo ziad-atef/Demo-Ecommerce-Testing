@@ -24,6 +24,7 @@ public class homePage {
     public WebElement euroCurrency() { return Hooks.driver.findElement(By.cssSelector("option[value=\"https://demo.nopcommerce.com/changecurrency/6?returnUrl=%2Fregister%3FreturnUrl%3D%2F\"]")); }
     public WebElement searchTextbox() { return Hooks.driver.findElement(By.id("small-searchterms")); }
     public List<WebElement> categories() { return Hooks.driver.findElement(By.className("top-menu")).findElements(By.tagName("li")); }
+    public List<WebElement> subCategories(WebElement category) { return category.findElements(By.tagName("li")); }
     public WebElement wishlistButton() { return Hooks.driver.findElement(By.cssSelector("div[data-productid=\"18\"]")).findElement(By.className("add-to-wishlist-button")); }
     public By wishlistSuccessMessageSelector() { return By.cssSelector("p[class=\"content\"]"); }
     public WebElement wishlistSuccessMessage() { return Hooks.driver.findElement(By.cssSelector("p[class=\"content\"]")); }

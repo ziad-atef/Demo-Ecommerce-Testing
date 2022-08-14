@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="25" time="279.318">
-    <testcase classname="Category" name="Logged user could select different Categories" time="11.197">
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="25" time="304.318">
+    <testcase classname="Category" name="Logged user could select different Categories" time="22.527">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user hovers over any random category...................................passed
@@ -8,14 +8,14 @@ And user clicks sub-category if found.......................................pass
 Then page title should contain category or sub-category name................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Products compare list" name="Logged user could add different products to compare list(1)" time="9.339">
+    <testcase classname="Products compare list" name="Logged user could add different products to compare list(1)" time="11.437">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user adds a product to compare list....................................passed
 Then item should be added to compare list...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Products compare list" name="Logged user could add different products to compare list(2)" time="9.363">
+    <testcase classname="Products compare list" name="Logged user could add different products to compare list(2)" time="12.52">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user adds a product to compare list....................................passed
@@ -24,13 +24,13 @@ And user navigates to compare list..........................................pass
 Then chosen products should appear in the compare list......................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Currencies" name="User could change the currency" time="8.064">
+    <testcase classname="Currencies" name="User could change the currency" time="8.932">
         <system-out><![CDATA[Given user go to home page..................................................passed
 When select Euro currency from the dropdown.................................passed
 Then Euro Symbol is shown on the 4 products displayed in Home page..........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Product filtration" name="Logged user could filter with color" time="10.088">
+    <testcase classname="Product filtration" name="Logged user could filter with color" time="10.106">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user hovers over apparel...............................................passed
@@ -39,21 +39,21 @@ And user chooses a color filter.............................................pass
 Then products having chosen color...........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Follow us on social media" name="User could follow us on facebook" time="11.675">
+    <testcase classname="Follow us on social media" name="User could follow us on facebook" time="8.963">
         <system-out><![CDATA[Given user go to home page..................................................passed
 When clicks on facebook link................................................passed
 And user switches to new tab................................................passed
 Then page url should be "https://www.facebook.com/nopCommerce"..............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Follow us on social media" name="User could follow us on twitter" time="8.246">
+    <testcase classname="Follow us on social media" name="User could follow us on twitter" time="10.069">
         <system-out><![CDATA[Given user go to home page..................................................passed
 When clicks on twitter link.................................................passed
 And user switches to new tab................................................passed
 Then page url should be "https://twitter.com/nopCommerce"...................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Follow us on social media" name="User could follow us on rss" time="7.384">
+    <testcase classname="Follow us on social media" name="User could follow us on rss" time="8.164">
         <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user go to home page..................................................passed
 When clicks on rss link.....................................................passed
 And user switches to new tab................................................passed
@@ -69,47 +69,29 @@ java.lang.AssertionError: expected [true] but found [false]
 	at ✽.page url should be "https://demo.nopcommerce.com/new-online-store-is-open"(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Follow.feature:21)
 ]]></failure>
     </testcase>
-    <testcase classname="Follow us on social media" name="User could follow us on youtube" time="12.405">
+    <testcase classname="Follow us on social media" name="User could follow us on youtube" time="11.086">
         <system-out><![CDATA[Given user go to home page..................................................passed
 When clicks on youtube link.................................................passed
 And user switches to new tab................................................passed
 Then page url should be "https://www.youtube.com/user/nopCommerce"..........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login" name="User could log in with valid email and password" time="8.186">
-        <system-out><![CDATA[Given user go to login page.................................................passed
+    <testcase classname="Login" name="User could log in with valid email and password" time="17.609">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ico\-account&quot;}&#10;  (Session info: chrome=104.0.5112.81)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'DESKTOP-QV8H481', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [90fa8f5b2e1ee215e4a07a69802163b1, findElement {using=class name, value=ico-account}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ziada\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60854}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60854/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 90fa8f5b2e1ee215e4a07a69802163b1" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user go to login page.................................................passed
 When user login with "test@example.com" and "P@ssw0rd"......................passed
 And user press on login button..............................................passed
-Then user login to the system successfully..................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Login" name="User could login with invalid email and password" time="7.639">
-        <system-out><![CDATA[Given user go to login page.................................................passed
-When user login with "wrong@example.com" and "P@ssw0rd".....................passed
-And user press on login button..............................................passed
-Then user could not login to the system.....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Register" name="User could register with valid data" time="17.671">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class=&quot;result&quot;]&quot;}&#10;  (Session info: chrome=104.0.5112.81)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'DESKTOP-QV8H481', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e62a8a20c681c5c9de80444c35742313, findElement {using=css selector, value=div[class=&quot;result&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ziada\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49227/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e62a8a20c681c5c9de80444c35742313" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user go to register page..............................................passed
-When user select gender type................................................passed
-And user enter first name "automation" and last name "tester"...............passed
-And user enter date of birth................................................passed
-And user enter register email "test@example.com" field......................passed
-And user fills Password fields "P@ssw0rd" "P@ssw0rd"........................passed
-And user clicks on register button..........................................passed
-Then success message is displayed...........................................failed
+Then user login to the system successfully..................................failed
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class="result"]"}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ico\-account"}
   (Session info: chrome=104.0.5112.81)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-QV8H481', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e62a8a20c681c5c9de80444c35742313, findElement {using=css selector, value=div[class="result"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ziada\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49227/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e62a8a20c681c5c9de80444c35742313
+Command: [90fa8f5b2e1ee215e4a07a69802163b1, findElement {using=class name, value=ico-account}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ziada\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60854}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60854/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90fa8f5b2e1ee215e4a07a69802163b1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -126,12 +108,30 @@ Session ID: e62a8a20c681c5c9de80444c35742313
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.example.pages.registerPage.confirmationMessage(registerPage.java:70)
-	at org.example.stepDefinitions.registerStepDefinition.assertSucessfulRegistration(registerStepDefinition.java:71)
-	at ✽.success message is displayed(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Register.feature:13)
+	at org.example.pages.homePage.accountTab(homePage.java:49)
+	at org.example.stepDefinitions.loginStepDefinition.assertSuccessfulLogin(loginStepDefinition.java:35)
+	at ✽.user login to the system successfully(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Login.feature:9)
 ]]></failure>
     </testcase>
-    <testcase classname="Resetting password" name="User could reset his/her password successfully" time="8.344">
+    <testcase classname="Login" name="User could login with invalid email and password" time="8.597">
+        <system-out><![CDATA[Given user go to login page.................................................passed
+When user login with "wrong@example.com" and "P@ssw0rd".....................passed
+And user press on login button..............................................passed
+Then user could not login to the system.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Register" name="User could register with valid data" time="9.965">
+        <system-out><![CDATA[Given user go to register page..............................................passed
+When user select gender type................................................passed
+And user enter first name "automation" and last name "tester"...............passed
+And user enter date of birth................................................passed
+And user enter register email "test@example.com" field......................passed
+And user fills Password fields "P@ssw0rd" "P@ssw0rd"........................passed
+And user clicks on register button..........................................passed
+Then success message is displayed...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Resetting password" name="User could reset his/her password successfully" time="9.209">
         <system-out><![CDATA[Given user go to login page.................................................passed
 When select forgot password.................................................passed
 And types registered email..................................................passed
@@ -139,7 +139,7 @@ And press on recover button.................................................pass
 Then confirmation message is displayed......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Product search" name="Logged user could search using product name" time="9.557">
+    <testcase classname="Product search" name="Logged user could search using product name" time="10.484">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user enter product name as "book"......................................passed
@@ -147,45 +147,15 @@ And user press enter........................................................pass
 Then search results should appear and contain "book"........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Product search" name="Logged user could search using product name 2" time="15.192">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ico\-login&quot;}&#10;  (Session info: chrome=104.0.5112.81)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'DESKTOP-QV8H481', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d84067d6df65086b375bc75a1fb87040, findElement {using=class name, value=ico-login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ziada\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49292/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d84067d6df65086b375bc75a1fb87040" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user has logged in....................................................failed
-And user is at home page....................................................skipped
-When user enter product name as "laptop"....................................skipped
-And user press enter........................................................skipped
-Then search results should appear and contain "laptop"......................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ico\-login"}
-  (Session info: chrome=104.0.5112.81)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-QV8H481', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d84067d6df65086b375bc75a1fb87040, findElement {using=class name, value=ico-login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ziada\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49292/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d84067d6df65086b375bc75a1fb87040
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.example.pages.loginPage.loginLink(loginPage.java:10)
-	at org.example.stepDefinitions.searchStepDefinition.login(searchStepDefinition.java:27)
-	at ✽.user has logged in(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Search.feature:6)
-]]></failure>
+    <testcase classname="Product search" name="Logged user could search using product name 2" time="10.28">
+        <system-out><![CDATA[Given user has logged in....................................................passed
+And user is at home page....................................................passed
+When user enter product name as "laptop"....................................passed
+And user press enter........................................................passed
+Then search results should appear and contain "laptop"......................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Product search" name="Logged user could search using product name 3" time="9.32">
+    <testcase classname="Product search" name="Logged user could search using product name 3" time="10.345">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user enter product name as "nike"......................................passed
@@ -193,7 +163,7 @@ And user press enter........................................................pass
 Then search results should appear and contain "nike"........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Product search" name="Logged user could search for product using sku" time="11.949">
+    <testcase classname="Product search" name="Logged user could search for product using sku" time="12.41">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user enter product sku as "SCI_FAITH"..................................passed
@@ -201,7 +171,7 @@ And user press enter........................................................pass
 Then search result should contain "SCI_FAITH"...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Product search" name="Logged user could search for product using sku 2" time="12.092">
+    <testcase classname="Product search" name="Logged user could search for product using sku 2" time="11.98">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user enter product sku as "APPLE_CAM"..................................passed
@@ -209,7 +179,7 @@ And user press enter........................................................pass
 Then search result should contain "APPLE_CAM"...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Product search" name="Logged user could search for product using sku 3" time="10.742">
+    <testcase classname="Product search" name="Logged user could search for product using sku 3" time="12.622">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user is at home page....................................................passed
 When user enter product sku as "SF_PRO_11"..................................passed
@@ -217,14 +187,14 @@ And user press enter........................................................pass
 Then search result should contain "SF_PRO_11"...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Shopping cart" name="Logged user could add different products to Shopping cart(1)" time="8.733">
+    <testcase classname="Shopping cart" name="Logged user could add different products to Shopping cart(1)" time="11.287">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user go to home page....................................................passed
 When user click add to Shopping cart button.................................passed
 Then item should be added to Shopping cart..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Shopping cart" name="Logged user could add different products to Wishlist(2)" time="23.602">
+    <testcase classname="Shopping cart" name="Logged user could add different products to Wishlist(2)" time="24.623">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user go to home page....................................................passed
 When user click add to Shopping cart button.................................passed
@@ -233,7 +203,7 @@ And user clicks Shopping cart tab...........................................pass
 Then item quantity in Shopping cart should be > 0...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Home page slider" name="User can navigate to products through slider(1)" time="7.464">
+    <testcase classname="Home page slider" name="User can navigate to products through slider(1)" time="8.158">
         <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user go to home page..................................................passed
 When user click on first slider.............................................passed
 Then user should be directed to "https://demo.nopcommerce.com/nokia-lumia-1020".failed
@@ -248,7 +218,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at ✽.user should be directed to "https://demo.nopcommerce.com/nokia-lumia-1020"(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Slider.feature:8)
 ]]></failure>
     </testcase>
-    <testcase classname="Home page slider" name="User can navigate to products through slider(2)" time="7.385">
+    <testcase classname="Home page slider" name="User can navigate to products through slider(2)" time="8.316">
         <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user go to home page..................................................passed
 When user click on second slider............................................passed
 Then user should be directed to "https://demo.nopcommerce.com/iphone-6".....failed
@@ -263,14 +233,14 @@ java.lang.AssertionError: expected [true] but found [false]
 	at ✽.user should be directed to "https://demo.nopcommerce.com/iphone-6"(file:///D:/GitHub/Demo-Ecommerce-Testing/src/main/resources/features/Slider.feature:14)
 ]]></failure>
     </testcase>
-    <testcase classname="Wishlist" name="Logged user could add different products to Wishlist(1)" time="9.199">
+    <testcase classname="Wishlist" name="Logged user could add different products to Wishlist(1)" time="9.915">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user go to home page....................................................passed
 When user click add to wishlist button......................................passed
 Then item should be added to wishlist.......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Wishlist" name="Logged user could add different products to Wishlist(2)" time="24.067">
+    <testcase classname="Wishlist" name="Logged user could add different products to Wishlist(2)" time="24.239">
         <system-out><![CDATA[Given user has logged in....................................................passed
 And user go to home page....................................................passed
 When user click add to wishlist button......................................passed
